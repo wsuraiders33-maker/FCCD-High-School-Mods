@@ -2,6 +2,17 @@
 
 Fan-made high school gameplay mods for **Football Coach: College Dynasty**.
 
+## Combined High School + Prestige v1.0.3
+
+The **combined mods** add Prestige-Based Dynasty v1.0.3 directly to the high-school gameplay mods. There are eight separate installers: Ohio Divisions I–VII and one Generic High School installer with selectable Large, Medium and Small profiles.
+
+- [Combined release notes, installation instructions and ZIP SHA-256 checksums](COMBINED_PRESTIGE_V1.0.3_RELEASE_NOTES.md)
+- Each package requires a clean Steam FCCD 1.6.5 installation on Windows.
+- Install **only one combined package at a time**; the standalone Prestige installer is **not** required.
+- Close the game before installing, verifying or restoring and back up dynasty saves first.
+
+**Publication status:** Release documentation is ready. The combined ZIP assets will appear on the corresponding GitHub Releases page once uploaded. The older v1.1.4 standalone mod assets remain available separately.
+
 ## Ohio High School Mods
 
 The seven Ohio packages are companion engine mods for the corresponding **Ohio High Schools – Division I through VII** Steam Workshop universes.
@@ -36,7 +47,7 @@ To return to normal college gameplay, close FCCD, run the BAT again and choose *
 
 ## Safety and compatibility
 
-These packages do **not** redistribute FCCD's original game files. The installer verifies and backs up the user's supported stock files, then applies small patches locally.
+The standalone v1.1.4 packages do **not** redistribute FCCD's original game files. The combined packages are distributed separately and include their verified combined engine payloads. The installer verifies and backs up the user's supported stock files, then applies small patches locally.
 
 The mods are version-locked for safety. If a future FCCD update changes the expected stock files, the installer stops instead of patching an unknown build.
 
