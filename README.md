@@ -1,62 +1,49 @@
 # FCCD High School Mods
 
-Fan-made high school gameplay mods for **Football Coach: College Dynasty**.
+Standalone high school football gameplay mods for **Football Coach: College Dynasty**.
 
-## Combined High School + Prestige v1.0.3
+**Latest standalone version: [v1.1.5](https://github.com/wsuraiders33-maker/FCCD-High-School-Mods/releases/tag/v1.1.5)**
 
-The **combined mods** add Prestige-Based Dynasty v1.0.3 directly to the high-school gameplay mods. There are eight separate installers: Ohio Divisions I–VII and one Generic High School installer with selectable Large, Medium and Small profiles.
+This repository contains **High School Mods only**, not the Prestige-Based Dynasty or combined versions.
 
-- [Combined release notes, installation instructions and ZIP SHA-256 checksums](COMBINED_PRESTIGE_V1.0.3_RELEASE_NOTES.md)
-- Each package requires a clean Steam FCCD 1.6.5 installation on Windows.
-- Install **only one combined package at a time**; the standalone Prestige installer is **not** required.
-- Close the game before installing, verifying or restoring and back up dynasty saves first.
+## Available configurations
 
-**Publication status:** Release documentation is ready. The combined ZIP assets will appear on the corresponding GitHub Releases page once uploaded. The older v1.1.4 standalone mod assets remain available separately.
+- Ohio High School Divisions I–VII, each with its own installer for the corresponding Ohio Steam Workshop universe
+- Generic High School Mod with selectable **Large**, **Medium** and **Small** school profiles
 
-## Ohio High School Mods
+Download the package for the high school configuration you want to use.
 
-The seven Ohio packages are companion engine mods for the corresponding **Ohio High Schools – Division I through VII** Steam Workshop universes.
+## High school gameplay features
 
-Each division-specific package enables the exact rules and calibration used when that Ohio universe was built and tested:
-
-- 12-minute quarters
-- Kickoffs from the 40-yard line
-- Division-specific stadium capacity scaling
-- Division-specific attendance behavior
-- Division-specific neutral-site attendance
-- Geographic selection from the Ohio postseason-site pool
-- State championship in Canton
-
-The matching updated Steam Workshop universe supplies the **36 Ohio postseason locations**.
-
-## Generic High School Mod
-
-A separate Generic High School Mod is intended for other high school universes. It provides **Large**, **Medium** and **Small** school attendance profiles along with 12-minute quarters and kickoffs from the 40.
+- **12-minute quarters**
+- Kickoffs from the **40-yard line**
+- High school kickoff and touchback rules
+- **Missed field goals are treated as scrimmage kicks**: kicks that remain in play can be returned, with kick distance based on the kicker's Kick Power rating
+- End-zone touchbacks, return yardage, on-field visualization and game-clock accounting for missed field goals
+- Four-year player eligibility (**FR, SO, JR, SR**) without redshirts
+- Normal graduation and class progression
+- High-school recruiting and roster-management adjustments
+- Stadium sizes and attendance calibrated for each Ohio division or Generic school-size profile
+- High school postseason and State Championship presentation
 
 ## Installation
 
-1. Download the ZIP for the mod you want.
-2. Extract the entire ZIP.
-3. Close FCCD completely.
-4. Run the included BAT file.
-5. Approve the Administrator prompt.
-6. Choose the install option.
-7. Launch FCCD normally through Steam.
+1. Back up your dynasty saves and **close FCCD**.
+2. Ensure the game is on a supported, **clean Steam FCCD 1.6.5** installation; restore other installed mods before switching.
+3. Download the desired ZIP from the [v1.1.5 release assets](https://github.com/wsuraiders33-maker/FCCD-High-School-Mods/releases/tag/v1.1.5).
+4. Extract the entire ZIP and run its included installer BAT file.
+5. Follow the prompts, then launch the game normally through Steam.
 
-To return to normal college gameplay, close FCCD, run the BAT again and choose **Restore Normal FCCD**.
+Install **one configuration at a time**. Do not stack installers that modify the same game files. Use the included restoration procedure to return to the original game before installing another configuration.
 
-## Safety and compatibility
+## Compatibility
 
-The standalone v1.1.4 packages do **not** redistribute FCCD's original game files. The combined packages are distributed separately and include their verified combined engine payloads. The installer verifies and backs up the user's supported stock files, then applies small patches locally.
+- **Windows Steam FCCD 1.6.5**, using the original-file hashes supported by the installer
+- macOS compatibility has not been verified
+- Game updates may change the supported files and require an updated installer
 
-The mods are version-locked for safety. If a future FCCD update changes the expected stock files, the installer stops instead of patching an unknown build.
-
-Because the installer modifies files under the Steam installation directory, Windows Administrator permission is required. The included BAT and PowerShell scripts are plain text and can be inspected before running.
-
-## Status
-
-v1.0 has been tested through installation, high-school gameplay and restoration to normal FCCD. Ohio Division I and Division VII were additionally smoke-tested as the large-school and small-school extremes of the Ohio calibration set.
+The v1.1.5 missed-field-goal return mechanics were tested in gameplay. Back up important saves before installing any mod.
 
 ## Disclaimer
 
-Fan-made project. Not affiliated with the developer of Football Coach: College Dynasty, the OHSAA or any school represented in the Workshop universes.
+Unofficial community project. Not affiliated with the developer of *Football Coach: College Dynasty*, Steam, Valve, the OHSAA or any represented school.
