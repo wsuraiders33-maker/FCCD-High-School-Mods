@@ -4,7 +4,7 @@ Standalone high school football gameplay mods for **Football Coach: College Dyna
 
 **Latest standalone version: [v1.1.5](https://github.com/wsuraiders33-maker/FCCD-High-School-Mods/releases/tag/v1.1.5)**
 
-This repository contains **High School Mods only**, not the Prestige-Based Dynasty or combined versions.
+This repository contains **standalone High School Mods only**.
 
 ## Available configurations
 
